@@ -35,7 +35,7 @@ public class Swagger2Config
     {
         return new ApiInfoBuilder().title("Random Act Generator")
                 .description("A Java backend to supply data management solutions to the Random Act Generator application")
-                .contact(new Contact("Ben Feole", "https://zurglots.github.io/", "SeeWebsite"))
+                .contact(new Contact("Ben Feole", "https://benfeole.com", ""))
                 .license("MIT").licenseUrl("https://github.com/LambdaSchool/java-starthere/blob/master/LICENSE")
                 .version("1.0.0").build();
     }
